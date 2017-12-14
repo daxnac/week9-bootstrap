@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio Site</title>
+    <meta name="description" content="A website that tells a little about myself.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified Jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+      /* Bootstrap affix for Fixed (sticky) navbar on scroll */
+      .affix {
+          top: 0;
+          width: 100%;
+          z-index: 9999 !important;
+        }
+      /* Resizing glyphicons */
+      i {
+        font-size: 6rem;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h2>MY<strong>PORTFOLIO</strong>SITE | <small>INTERESTS</small></h2>
+    </div>
+  </div>
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+    <div  class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">MY<strong>PORTFOLIO</strong>SITE</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#tech">Technology</a></li>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#photo">Photography</a></li>
+        </ul>   
+      </div> 
+    </div>    
+  </nav>
+  <div class="container">
+    <div class="col-md-12 jumbotron">
+      <h2>Welcome!</h2>
+      <p>Etiam nec felis vitae orci sagittis bibendum a et massa. Phasellus elementum arcu et aliquet gravida. Nullam at aliquet ipsum, sed rutrum enim. Ut fringilla placerat tortor, et vulputate est pellentesque sit amet. Etiam consequat facilisis dolor vitae interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed faucibus euismod venenatis.</p>
+      <div class="alert alert-success" role="alert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis nibh id quam dapibus finibus.</div>
+      <p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Learn more</button></p>
+      <!-- Modal Window -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">My Interests</h4>
+            </div>
+            <div class="modal-body">
+              <p>Etiam nec felis vitae orci sagittis bibendum a et massa. Phasellus elementum arcu et aliquet gravida. Nullam at aliquet ipsum, sed rutrum enim. Ut fringilla placerat tortor, et vulputate est pellentesque sit amet. Etiam consequat facilisis dolor vitae interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed faucibus euismod venenatis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <aside class="col-md-2">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Quick Links</h3>
+        </div>
+        <div class="panel-body"><a href="#" data-toggle="tooltip" data-placement="right" title="References">References</a></div>
+        <div class="panel-body"><a href="#" data-toggle="tooltip" data-placement="right" title="Quotes">Quotes</a></div>
+        <div class="panel-body"><a href="#" data-toggle="tooltip" data-placement="right" title="FAQ's">FAQ's</a></div>
+        <div class="panel-body"><a href="#" data-toggle="tooltip" data-placement="right" title="Information">Information</a></div>
+      </div>
+    </aside>
+    <main class="col-md-10">  
+      <article id="tech" class="col-md-12 container-fluid">
+        <header class="page-header"><h2>Technology</h2></header>
+        <section class="col-md-4">
+          <span><i class="glyphicon glyphicon-cloud" aria-hidden="true"></i></span>  
+          <h4>Cloud Computing</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis nibh id quam dapibus finibus. Mauris a efficitur sapien. Maecenas non turpis porttitor, elementum urna sit amet, laoreet elit. Etiam nec felis vitae orci sagittis bibendum a et massa.  Nullam at aliquet ipsum, sed rutrum enim. Ut fringilla placerat tortor, et vulputate est pellentesque sit amet. Etiam consequat facilisis dolor vitae interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Morbi in nulla ultricies sem.</li>
+            <li>Vestibulum eget orci et libero fermentum.</li>
+            <li>Nunc eu massa et odio consequat auctor.</li>
+          </ul>
+        </section>
+        <section class="col-md-4">
+          <span><i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i></span>
+          <h4>Web Development</h4>
+          <p>Phasellus eget lorem nibh. Vivamus non quam luctus, fringilla nunc quis, consectetur ipsum. Vivamus augue enim, consectetur non odio ac, maximus malesuada libero. Etiam quis tempor massa. Sed eget mollis orci, vitae efficitur erat. Morbi nec sem quam. Aliquam erat volutpat. Integer in nisi felis. Aliquam ac pretium odio, id euismod est. Curabitur lobortis congue libero, vitae sollicitudin lorem aliquam quis.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Morbi in nulla ultricies sem.</li>
+            <li>Vestibulum eget orci et libero fermentum.</li>
+          </ul>
+        </section>
+        <section class="col-md-4">
+          <span><i class="glyphicon glyphicon-phone" aria-hidden="true"></i></span>
+          <h4>Mobile</h4>
+          <p>Vivamus non quam luctus, fringilla nunc quis, consectetur ipsum. Vivamus augue enim, consectetur non odio ac, maximus malesuada libero. Etiam quis tempor massa. Sed eget mollis orci, vitae efficitur erat. Morbi nec sem quam. Aliquam erat volutpat. Integer in nisi felis. Aliquam ac pretium odio, id euismod est. Curabitur lobortis congue libero, vitae sollicitudin lorem aliquam quis. Curabitur facilisis semper tellus, ac mollis ex tincidunt ut.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Morbi in nulla ultricies sem.</li>
+            <li>Vestibulum eget orci et libero fermentum.</li>
+          </ul>
+        </section>
+      </article>
+      <article id="travel" class="col-md-12 container-fluid">
+        <header class="page-header"><h2>Travel</h2></header>
+        <section class="col-md-6">
+          <span><i class="glyphicon glyphicon-globe" aria-hidden="true"></i></span>  
+          <h4>Travel the world</h4>
+          <p>Vivamus non quam luctus, fringilla nunc quis, consectetur ipsum. Vivamus augue enim, consectetur non odio ac, maximus malesuada libero. Etiam quis tempor massa. Sed eget mollis orci, vitae efficitur erat. Morbi nec sem quam. Aliquam erat volutpat. Integer in nisi felis. Aliquam ac pretium odio, id euismod est. Curabitur lobortis congue libero, vitae sollicitudin lorem aliquam quis. Curabitur facilisis semper tellus, ac mollis ex tincidunt ut.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Morbi in nulla ultricies sem.</li>
+            <li>Vestibulum eget orci et libero fermentum.</li>
+          </ul>
+        </section>
+        <section class="col-md-6">
+          <span><i class="glyphicon glyphicon-plane" aria-hidden="true"></i></span>  
+          <h4>Flying</h4>
+          <p>Vivamus non quam luctus, fringilla nunc quis, consectetur ipsum. Vivamus augue enim, consectetur non odio ac, maximus malesuada libero. Etiam quis tempor massa. Sed eget mollis orci, vitae efficitur erat. Morbi nec sem quam. Aliquam erat volutpat. Integer in nisi felis. Aliquam ac pretium odio, id euismod est. Curabitur lobortis congue libero, vitae sollicitudin lorem aliquam quis. Curabitur facilisis semper tellus, ac mollis ex tincidunt ut.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Morbi in nulla ultricies sem.</li>
+            <li>Vestibulum eget orci et libero fermentum.</li>
+          </ul>
+        </section>
+      </article>  
+      <article id="photo" class="col-md-12 container-fluid">
+        <header class="page-header"><h2>Photography</h2></header>
+        <div>
+          <!-- tab titles -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#photography" aria-controls="photography" role="tab" data-toggle="tab">Photography</a></li>
+            <li role="presentation"><a href="#editing" aria-controls="editing" role="tab" data-toggle="tab">Editing</a></li>
+            <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab">Video</a></li>
+            <li role="presentation"><a href="#framing" aria-controls="framing" role="tab" data-toggle="tab">Framing</a></li>
+          </ul>
+          <!-- Tab content -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="photography">          
+              <span><i class="glyphicon glyphicon-camera" aria-hidden="true"></i></span>  
+              <h4>Photography</h4>
+              <p>Aliquam ac pretium odio, id euismod est. Curabitur lobortis congue libero, vitae sollicitudin lorem aliquam quis. Curabitur facilisis semper tellus, ac mollis ex tincidunt ut.</p>
+              <ul>
+                <li>Morbi in nulla ultricies sem.</li>
+                <li>Vestibulum eget orci et libero fermentum.</li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="editing">          
+              <span><i class="glyphicon glyphicon-pencil" aria-hidden="true"></i></span>  
+              <h4>Editing</h4>
+              <p>Vivamus non quam luctus, fringilla nunc quis, consectetur ipsum. Vivamus augue enim, consectetur non odio ac, maximus malesuada libero. Etiam quis tempor massa. Sed eget mollis orci, vitae efficitur erat. Morbi nec sem quam. Aliquam erat volutpat. Integer in nisi felis. Aliquam ac pretium odio, id euismod est. </p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Vestibulum eget orci et libero fermentum.</li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="video">  
+              <span><i class="glyphicon glyphicon-facetime-video" aria-hidden="true"></i></span>  
+              <h4>Video</h4>
+              <p>Vivamus non quam luctus, fringilla nunc quis, consectetur ipsum. Vivamus augue enim, consectetur non odio ac, maximus malesuada libero.  Morbi nec sem quam. Aliquam erat volutpat. Integer in nisi felis. Vitae sollicitudin lorem aliquam quis. Curabitur facilisis semper tellus, ac mollis ex tincidunt ut.</p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Morbi in nulla ultricies sem.</li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="framing">          
+              <span><i class="glyphicon glyphicon-picture" aria-hidden="true"></i></span>  
+              <h4>Framing</h4>
+              <p>Morbi nec sem quam. Aliquam erat volutpat. Integer in nisi felis. Aliquam ac pretium odio, id euismod est. Curabitur lobortis congue libero, vitae sollicitudin lorem aliquam quis. Curabitur facilisis semper tellus, ac mollis ex tincidunt ut.</p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Morbi in nulla ultricies sem.</li>
+                <li>Vestibulum eget orci et libero fermentum.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>  
+    </main> 
+  </div>
+  <footer class="footer">
+     <address class="container">
+       <p class="text-muted">&copy; Dax Nacu || <a href="mailto:daxnac@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;daxnac@outlook.com</a></p>
+     </address>
+  </footer>
+  <script>
+    // Tab nav function
+    $('#myTabs a[href="#photography"]').tab('show') 
+    $('#myTabs a[href="#editing"]').tab('show') 
+    $('#myTabs a[href="#video"]').tab('show')
+    $('#myTabs a[href="#framing"]').tab('show')
+
+    // modal window function
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').focus()
+    })
+
+    //tooltip fuction
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    //scroll spy function
+    $(document).ready(function(){
+      // Add scrollspy to <body>
+      $('body').scrollspy({target: ".navbar", offset: 50});   
+
+      // Add smooth scrolling on all links inside the navbar
+      $("#navbar-collapse a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+  </script>
+  </body>
+</html>
